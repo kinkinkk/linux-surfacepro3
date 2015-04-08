@@ -176,7 +176,7 @@ _package() {
   
   # add xorg touchpad configuration
   if [[ $multitouch = 'y' ]]; then
-    install -D -m644 "${srcdir}/surface3-touchpad.conf" "${pkgdir}/etc/X11/xorg.conf.d/"
+    install -D -m644 "${srcdir}/surface3-touchpad.conf" "${pkgdir}/etc/X11/xorg.conf.d/surface3-touchpad.conf"
   fi
 }
 
